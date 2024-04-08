@@ -1,0 +1,175 @@
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(bg.jpg);
+  }
+  
+#start-btn {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+
+}
+
+#multi-start-btn {
+    position:absolute;
+    width: 400px;
+    height: 40px;    
+    margin-top: 130px;
+}
+
+#guide-btn {
+    position:absolute;
+    width: 400px;
+    height: 40px;    
+    margin-top: 500px;
+}
+
+#back-btn {
+    position:absolute;
+    width: 400px;
+    height: 40px;    
+    margin-top: 500px;
+}
+  
+#restart-btn,#restart-2-btn {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+
+}
+  
+#quitter-btn {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  margin-top: 500px;
+}
+
+#x-btn {
+  position: absolute;
+  margin-bottom: 560px;
+  border :rgb(4, 97, 4) 5px solid;
+  font-family:cursive;
+}
+
+#continue-btn {
+  position: absolute;
+  width: 400px;
+  height: 40px;  
+  margin-top: 100px;
+}
+#gameover {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  margin-left: 93px;
+  margin-right: 95px;
+  margin-bottom: 400px;
+  font-size: 80px;
+}
+
+#instraction{
+  position: absolute;
+  font-family:Arial;
+  font-size: 18px ;
+  margin-top: 250px;
+}
+
+#red-final-score{
+  color: azure;
+  position: absolute;
+  font-family:cursive;
+  font-size: 18px ;
+  margin-bottom: 250px;
+}
+
+#both-final-score{
+  color: azure;
+  position: absolute;
+  font-family:cursive;
+  font-size: 18px ;
+  margin-bottom: 250px;
+}
+  
+.disabled {
+  display: none;
+}
+
+#score,#score-green,#score-val{
+  color: #4BB543;
+}
+
+#red_serpent {
+  position: absolute;
+  margin-bottom: 560px;
+  margin-right: 470px;
+  color: azure;
+}
+
+
+#score2,#score-red{
+  color:  #f32013;
+}
+
+#green_serpent {
+  position: absolute;
+  margin-bottom: 560px;
+  margin-left: 470px;
+  color: azure;
+}
+
+#title {
+  position: absolute;
+  font-size: 60px;
+  font-family: play;
+  margin-bottom: 400px;
+}
+
+#mode-jeu {
+  position: absolute;
+  font-family: georgia;
+  font-size: 27px;
+  margin-bottom: 100px;
+  margin-left: 125px;
+}
+
+canvas {
+  border: 1px rgb(4, 97, 4) solid;
+}
+#univirsite {
+  font-family: play;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  margin-right: 950px;
+  margin-top: 80px;
+  color: whitesmoke ;
+}
+#projet {
+  font-size: 22px;
+  text-shadow: rgb(228, 227, 227) 1px 1px;
+}
+
+#realisateur {
+  font-family: play;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 80px;
+  color: whitesmoke ;
+}
+
+#logo {
+  position: absolute;
+  width: 85px;
+  margin-right: 950px;
+  margin-bottom: 220px;
+}

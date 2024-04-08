@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Serpent</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h3 class="disabled" id="red_serpent">Score : <span id="score">0</span></h3>
+        <h3 class="disabled" id="red-final-score">Ton Score finale est : <span id="score-val">0</span></h3>
+        <h1 id="title" class="text-danger">LE JEU DE SERPENT<br><span id="mode-jeu" class="disabled text-warning"><br><br>Choisis votre mode du jeu</span></h1>
+        
+        <button id="start-btn" class="btn-danger rounded">SOLO JEU</button><br>
+        <button id="restart-btn" class="disabled btn-success rounded">Recommencer</button>
+        <button id="restart-2-btn" class="disabled btn-success rounded">Recommencer</button>
+        <button id="quitter-btn" class="disabled btn-danger rounded">Quitter la partie</button>
+        <button id="x-btn" class="disabled btn-danger rounded">X</button>
+        
+        <canvas id="game-canvas"></canvas>   
+        
+        <button id="continue-btn" class="disabled btn-success rounded">Continue</button><br>
+        
+        <p id="instraction" class="disabled text-muted"><b >Remarque :</b>  <br>En continuant tu vas consommer 5 point du score </p> 
+        <p id="gameover" class="disabled text-warning"> GAME OVER </p>
+        
+        <button id="multi-start-btn" class="btn-danger rounded">MULTI-JOUEUR</button>
+        <button id="guide-btn" class="btn-success rounded">CONSULTER L'AIDE</button>
+        <button id="back-btn" class="disabled btn-warning rounded">CHOISIS TON MODE</button>
+        
+        
+        <h3 class="disabled" id="green_serpent">Score : <span id="score2">0</span></h3>
+        <h3 class="disabled" id="both-final-score">Vos Score finale sont : <span id="score-green">0</span> - <span id="score-red">0</span></h3>
+
+        <p id="univirsite" class="text-secondary">Université de Picardie Jules Verne<br>UFR des sciences<br> Licence 3 informatique – parcours MIAGE <br> 2021 - 2022<br><br> <span id="projet" class="text-dark">PROJET : JEU DE SERPENT </span></p>
+        <div id="realisateur" class="text-secondary">
+            <b>Réaliser par :</b>
+            <ul>
+                <li>Saleh Amari</li>
+                <li>Samy Harfouche</li>
+            </ul>
+            <br>
+            <b>Encadrée par :</b>
+            <ul>
+                
+                <li>Soufia Bennai</li>
+            </ul>
+        </div>
+        <div id="logo">
+            <img src="logo-UPJV.png" alt="UPJV" title="UPJV">
+        </div>
+                
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
