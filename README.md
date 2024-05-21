@@ -17,3 +17,7 @@
 
 ## Détail de projet
 Dans le cadre de notre troisième année de licence informatique, mon binôme Samy Harfouche et moi-même avons eu pour tâche la réalisation d'un projet informatique. Notre objectif était de programmer un jeu de serpent jouable au clavier sur une page web.
+
+## Captures d'écran
+
+![Capture d'écran 1](Capture1.JPG)
